@@ -1,0 +1,157 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "Prepare for a long-distance running event (endurance athlete), requiring high-carb fueling.",
+      "restrictions": "No nuts"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan.",
+      "Plan is compact and concise.",
+      "Meal plan is high in carbohydrates.",
+      "Excludes nuts."
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete requiring a high-carb diet for endurance, ensuring the plan is compact and concise."
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "Strength training, muscle gain",
+      "restrictions": "Low-carb, high-protein"
+    },
+    "solution_criteria": [
+      "Meal plan is for one day",
+      "Meal plan is low-carb and high-protein",
+      "Meal plan is compact and concise"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete needing a low-carb, high-protein diet for strength training, focusing on conciseness."
+  },
+  {
+    "prompt_inputs": {
+      "height": "170",
+      "weight": "65",
+      "goal": "Maintain energy for daily training and muscle recovery",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan is vegetarian",
+      "Meal plan is balanced (includes protein, carbs, healthy fats)",
+      "Meal plan is compact for one day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete on a vegetarian diet, verifying the meal plan is balanced and compact for 1 day."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "Maintain energy for endurance training",
+      "restrictions": "Nut allergy (severe)"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan for an athlete",
+      "Includes nut-free alternatives",
+      "Plan is compact and concise"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete with a known allergy (e.g., nuts), ensuring alternatives are noted concisely within the plan."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "80",
+      "goal": "weight loss",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan",
+      "Meals are calorie-conscious for weight loss",
+      "Meals support athletic performance",
+      "Meal plan is compact and concise"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete looking to lose weight, checking for calorie-conscious yet performance-focused brief meals."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "Maintain energy levels for daily training (running 10km)",
+      "restrictions": "No dairy, limited access to cooking facilities (microwave, kettle only)"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan (breakfast, lunch, dinner, snack options)",
+      "Suggests affordable and simple ingredients",
+      "Adheres to specified dietary restrictions and cooking limitations",
+      "Compact and concise format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete on a budget, requiring affordable and simple ingredient suggestions in a compact format."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175cm",
+      "weight": "70kg",
+      "goal": "Maintain weight, optimize recovery",
+      "restrictions": "No dairy"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan.",
+      "Meal timing optimized for evening training.",
+      "Plan is compact and concise.",
+      "Excludes dairy products."
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete who trains in the evening, ensuring the timing of meals is optimized and concisely presented."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "Maintain energy levels for endurance training",
+      "restrictions": "Gluten-free"
+    },
+    "solution_criteria": [
+      "All meals are gluten-free",
+      "Meal plan is compact and concise",
+      "Suitable for an athlete's energy needs"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete needing gluten-free options, checking for suitable, compact meal suggestions."
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "Maintain energy levels for daily training",
+      "restrictions": "No dairy"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan",
+      "Meals are quick-prep and require minimal cooking",
+      "Addresses no dairy restriction",
+      "Compact and concise"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete who prefers minimal cooking, looking for quick-prep, concise meal ideas."
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "maintenance",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan",
+      "Meal plan is compact and concise",
+      "Meal plan supports maintenance goal"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test with an athlete in an off-season period, requiring a maintenance-focused yet compact and simple meal plan."
+  }
+]
